@@ -1,4 +1,5 @@
 # Spiritify 🤲🌟
+![Spiritify](https://socialify.git.ci/m2ncef/Spiritify/image?description=1&descriptionEditable=&font=KoHo&language=1&name=1&owner=1&pattern=Diagonal%20Stripes&theme=Dark)
 
 Welcome to Spiritify, your go-to Islamic web app built with ❤️ by [moncef](https://github.com/m2ncef) using ReactJS and a touch of Framework7. 🚀
 
