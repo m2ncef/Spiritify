@@ -70,7 +70,7 @@ npm run build
 We welcome contributions! Feel free to submit issues or pull requests. Let's make Spiritify even more amazing together. 🌟
 
 ## Feedback 💌
-Have suggestions or found a bug? We'd love to hear from you! Create an issue or reach out to us at m2ncef@icloud.com
+Have suggestions or found a bug? We'd love to hear from you! Create an issue or reach out to us at moncxf@icloud.com
 
 ## Spread the Love ❤️
 If you find Spiritify helpful, don't forget to give it a ⭐️ star on GitHub and share it with your friends and community.
