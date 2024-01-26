@@ -61,6 +61,11 @@ npm run build
 [Prayer Times API](https://aladhan.com/prayer-times-api)
 [Adhkar API](https://github.com/ahegazy/muslimKit)
 
+## To DO
+
+1. Platform Detection
+2. Service Worker 
+
 ## Contributing 🤝
 We welcome contributions! Feel free to submit issues or pull requests. Let's make Spiritify even more amazing together. 🌟
 
