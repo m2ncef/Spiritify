@@ -4,7 +4,6 @@ import Ayat from '../pages/ayat'
 import Tasbeeh from '../pages/tasbeeh'
 import Adhkar from '../pages/adhkar'
 import {Page, Link, Tabs, Toolbar, f7} from 'framework7-react'
-import { useEffect } from 'react'
 
 export default ()=>{
     return(

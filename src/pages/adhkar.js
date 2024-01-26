@@ -4,7 +4,6 @@ import { Tab, Card, CardContent, List, ListItem, Sheet, BlockHeader, Block,PageC
 export default () => {
   const isMounted = useRef(true);
   const [data, setData] = useState([]);
-  const [quran, setQuran] = useState([]);
   const [isSheetOpen, setIsSheetOpen] = useState(false);
   const closeSheet = () => {
     setIsSheetOpen(false);
@@ -24,15 +23,6 @@ export default () => {
   }
   useEffect(() => {
     if (isMounted.current) {
-      fetch("https://raw.githubusercontent.com/semarketir/quranjson/master/source/surah.json").then(res=>res.json()).then(res=>{
-        for(const i in res){
-          const newData = res.map(element => ({
-            en: element.title,
-            ar: element.titleAr
-          }));
-          setQuran(newData);
-        }
-      })
       fetch('https://ahegazy.github.io/muslimKit/json/list.json')
         .then(res => res.json())
         .then(res => {

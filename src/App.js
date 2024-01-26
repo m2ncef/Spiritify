@@ -16,12 +16,12 @@ export default () => {
   useEffect(()=>{
     const firebaseConfig = {
         apiKey: process.env.FIREBASE_API_KEY,
-        authDomain: "test-65814.firebaseapp.com",
-        databaseURL: "https://test-65814-default-rtdb.firebaseio.com",
+        authDomain: process.env.FIREBASE_AUTHDOMAIN,
+        databaseURL: process.env.FIREBASE_DATABASEURL,
         projectId: "test-65814",
-        storageBucket: "test-65814.appspot.com",
-        messagingSenderId: "501710770819",
-        appId: "1:501710770819:web:a6f1894d9e443138ef01b6"
+        storageBucket: process.env.FIREBASE_STORAGEBUCKET,
+        messagingSenderId: process.env.FIREBASE_MESSAGINGSENDERID,
+        appId: process.env.FIREBASE_APPID
       };
     const app = initializeApp(firebaseConfig);
     setInterval(() => {
