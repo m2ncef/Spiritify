@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SpiritifyReact/static/css/main.e23a7bec.css",
+    "main.js": "/SpiritifyReact/static/js/main.7305e347.js",
+    "index.html": "/SpiritifyReact/index.html",
+    "main.e23a7bec.css.map": "/SpiritifyReact/static/css/main.e23a7bec.css.map",
+    "main.7305e347.js.map": "/SpiritifyReact/static/js/main.7305e347.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e23a7bec.css",
+    "static/js/main.7305e347.js"
+  ]
+}
