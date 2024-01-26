@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sf-ui-display');
+html {
+  -webkit-text-size-adjust: none
+}
+body {
+  user-select: none;
+  cursor: default;
+  text-decoration: none;
+  font-family: 'SF UI Display', sans-serif;
+}
+div.dialog-title {
+  display: none !important;
+}
+.tabs {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.tab {
+  margin: 10vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+#adhkar {
+  width: 100%;
+  height: 100%;
+  direction: rtl;
+}
+#adhan {
+  text-align: center;
+  font-size: larger;
+  font-family: 'Secular One';
+  word-spacing: 2vh;
+}
+#adhan div {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 15vh;
+}
+#adhan div h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+.FSloader {
+  width: 100%;
+  height: 100%;
+  background-color: #1f644a;
+  color: white;
+  display: flex;
+  position: relative;
+  z-index: 9999999;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@keyframes loading {
+  0% {
+    color: white;
+  }
+  50% {
+    color: grey;
+  }
+  100% {
+    color: white;
+  }
+}
+.FSloader h5 {
+  animation: loading 1.5s infinite;
+}
+.FSloader img {
+  width: 10%;
+  border-radius: 20%;
+}
+.nav {
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+  display: flex;
+  color: #1f644a;
+  z-index: 9;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: larger;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navFixed {
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+  display: flex;
+  color: #1f644a;
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: larger;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #101210;
+  box-shadow: 0vh 4px 5vh rgba(0, 0, 0, 1);
+}
+.dev {
+  text-align: center;
+  position: relative;
+  top: -3vh;
+}
+.dev img {
+  width: 20vh;
+  border-radius: 4.5vh;
+}
+.rankCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  height: 13vh;
+  margin: 1vh;
+  padding: 2vh;
+  width: auto;
+  float: center;
+}
+.rankCard div {
+  line-height: 1vh;
+  text-align: left;
+}
+.card:nth-child(odd) {
+  background-color: #293a293b;
+}
+.rankCard div:nth-child(2){
+  width: 100%;
+  text-align: center;
+}
+.rankCard div h4 {
+  font-size: medium;
+  font-weight: 500;
+  display: block;
+  white-space: pre-wrap;
+  line-height: 1;
+  font-family: 'Secular One';
+}
+.rankCard div h5 {
+  font-weight: 300;
+  display: block;
+  line-height: normal;
+}
+.rankCard div:nth-child(1){
+  border-right: 1px solid  gray;
+  padding: 0vh 2vh 0vh 0vh;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  font-family: 'Secular One';
+  font-size: small;
+}
+.card {
+  border-radius: 3vh;
+  background: #1c241c;
+}
+.RankList {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-height: 100vh;
+  text-align: center;
+}
+.SocialSettings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 3vh 8vh 3vh 8vh;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+.fa {
+  font-size: 3.3vh;
+}
+.AddToHomeScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  height: 100vh;
+  width: 100%;
+  font-weight: 300;
+  align-content: center;
+  z-index: 9999999999999;
+}
+.AddToHomeScreen h1 {
+  font-weight: 500;
+}
+.AddToHomeScreen img {
+  width: 30%;
+  border-radius: 5.5vh;
+  padding: 2vh;
+}
+.AddToHomeScreen p {
+  font-size: 2.5vh;
+}
+#userRanking, .rankingSkeleton {
+  font-size: xxx-large;
+  font-family: 'Secular One';
+  margin: auto 0;
+  color: #2f946e;
+}
+.hideCard {
+  display: none;
+}
