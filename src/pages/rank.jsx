@@ -32,7 +32,7 @@ export default () => {
         get(child(ref(getDatabase(app)),'/Users/')).then((snapshot)=>{
             var data = snapshot.val()
             for(const key in data){
-                if(data[key].name != " " && Number(data[key].tasbeehs) >= 10 && parseInt(data[key].time) > 0){
+                if(data[key].name != " " && Number(data[key].tasbeehs) >= 50 && parseInt(data[key].time) > 0){
                     competitors.push(
                     {
                         'name': data[key].name,
@@ -76,7 +76,7 @@ export default () => {
                     <div id="userRanking"></div>
                     <div className="rankingSkeleton skeleton-text skeleton-effect-wave">▉▉</div>
                 </div>
-                <BlockFooter>Get a minimum of 10 Tasbeehs & 1 minute to enter to the ranking list</BlockFooter>
+                <BlockFooter>Get a minimum of 50 Tasbeehs & 1 minute to enter to the ranking list</BlockFooter>
             </Block>
             <Block className="RankList">
                 <RankingCard sklt ></RankingCard>
