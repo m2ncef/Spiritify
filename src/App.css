@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/sf-ui-display');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html {
-  -webkit-text-size-adjust: none
+  -webkit-text-size-adjust: none;
+  overflow: hidden;
+
 }
 body {
   user-select: none;
+  overflow: hidden;
   cursor: default;
   text-decoration: none;
   font-family: 'SF UI Display', sans-serif;
@@ -45,19 +50,6 @@ div.dialog-title {
   font-size: larger;
   font-family: 'Secular One';
   word-spacing: 2vh;
-}
-#adhan div {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 15vh;
-}
-#adhan div h4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
-  flex-wrap: nowrap;
 }
 .FSloader {
   width: 100%;
@@ -241,4 +233,76 @@ div.dialog-title {
 }
 .hideCard {
   display: none;
+}
+.adhanTopContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  line-height: 0vh;
+  align-items: center;
+  flex-basis: 25%;
+  position: relative;
+  top: 8vh;
+}
+.adhanTopContainer div {
+  margin: 3vh 0vh;
+  line-height: 1vh;
+}
+#adhan {
+  background-color: #04294a38;
+  width: 100%;
+}
+.AdhanCard {
+  background: #111111;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vh;
+  padding: 0vh 3vh;
+  border-radius: 2vh;
+  box-shadow: 0px 1px 6px 1px #0e0e0e;
+}
+.adhanCardsContainer {
+  font-family: 'Poppins';
+  width: 100%;
+  overflow-y: scroll;
+  white-space: nowrap;
+  position: relative;
+  height: 80vw;
+  background: #1b1b1b;
+  border-top-right-radius: 4vh;
+  border-top-left-radius: 4vh;
+  flex-basis: 60%;
+}
+.AdhanTab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  margin: 0vh 1vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.AdhanBG {
+  z-index: 0;
+  position: fixed;
+  top: -80vw;
+}
+.Today {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: -1vh 4vh;
+  line-height: 1vh;
+  flex-basis: 10%;
+  z-index: 1;
+  word-spacing: 1vw;
+  margin-top: 5vh;
+}
+.Today h4 {
+  margin: 0;
+}
+.adhanTopContainer h4 {
+  font-family: 'Poppins', sans-serif;
 }
