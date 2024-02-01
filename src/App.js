@@ -45,7 +45,7 @@ export default () => {
       if(!localStorage.getItem("userID")){
         localStorage.setItem("userID", new Date().getTime())
       }
-      fetch(`https://ssl.geoplugin.net/json.gp?k=7a35ee7cc6f992e4`)
+      fetch(`https://ssl.geoplugin.net/json.gp?k=af0ad95fd7caa623`)
       .then(res => res.json())
       .then(data => {
           localStorage.setItem("city", data.geoplugin_regionName);
