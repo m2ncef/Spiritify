@@ -271,7 +271,6 @@ div.dialog-title {
   overflow-y: scroll;
   white-space: nowrap;
   position: relative;
-  height: 80vw;
   background: #1b1b1b;
   border-top-right-radius: 4vh;
   border-top-left-radius: 4vh;
