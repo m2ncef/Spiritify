@@ -250,7 +250,7 @@ div.dialog-title {
   line-height: 1vh;
 }
 #adhan {
-  background-color: #04294a38;
+  background-color: #10263a6e;
   width: 100%;
 }
 .AdhanCard {
@@ -289,6 +289,7 @@ div.dialog-title {
   z-index: 0;
   position: fixed;
   top: -80vw;
+  filter: blur(5px);
 }
 .Today {
   align-items: flex-start;
