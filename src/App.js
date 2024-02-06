@@ -37,7 +37,7 @@ export default () => {
     if (!initialized.current) {
       initialized.current = true
       if(!localStorage.getItem("name")){
-        localStorage.setItem("name", ' ')
+        localStorage.setItem("name", 'User')
       }
       if(!localStorage.getItem("counter")){
         localStorage.setItem("counter", 0)
